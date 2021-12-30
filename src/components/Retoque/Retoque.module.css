@@ -1,0 +1,38 @@
+.imagefolio{
+    width: 22%;
+    margin: 1rem;
+    background-color: #fff;
+    transition: all ease .8s;
+
+}
+
+.imagefolio img{
+    width: 100%;
+}
+
+.imagefolio:hover{
+    transform: scale(1.1);
+    transition: all ease .4s;
+    cursor: pointer;
+}
+
+.listfolio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 90%;
+    width: 80%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0;
+}
+
+.container h2{
+    margin: 2rem 0;
+}

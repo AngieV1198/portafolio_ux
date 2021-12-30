@@ -1,0 +1,23 @@
+.btn {
+    background-color: #0094ff;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    outline: none;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 44px;
+    min-width: 45%;
+    width: 45%;
+    /* margin: 0 0.5rem ; */
+    /* width: 7.5rem; */
+  }
+
+
+  .btn p{
+      margin: 0;
+      margin-top: -4px;
+  }
