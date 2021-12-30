@@ -1,9 +1,8 @@
 .imagefolio{
-    width: 22%;
+    width: 29%;
     margin: 1rem;
     background-color: #fff;
     transition: all ease .8s;
-
 }
 
 .imagefolio img{
@@ -30,10 +29,23 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 3rem 0;
+    padding-bottom: 5rem;
 }
 
 .container h2{
+    font-size: 40px;
     font-weight: 300;
-    margin: 2rem 0;
+    margin: 5rem 0;
+}
+
+@media (max-width: 769px) {
+    .imagefolio{
+        width: 44%;
+    }
+}
+
+@media (max-width: 426px) {
+    .imagefolio{
+        width: 70%;
+    }
 }

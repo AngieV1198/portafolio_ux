@@ -13,9 +13,8 @@ function Retoque(props) {
     <>
       <div className={Styles.container}>
         <h2>Retoque Digital</h2>
-        <div className={Styles.listfolio}>{imglist}</div>;
+        <div className={Styles.listfolio}>{imglist}</div>
       </div>
-
     </>
   );
 }
