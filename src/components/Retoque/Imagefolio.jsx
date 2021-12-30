@@ -20,7 +20,7 @@ function Imagefolio({key,image}) {
     return (
         <>
         <div onClick={handleOpen} className={Styles.imagefolio}>
-            <img src={image} alt={"image"+key} />
+            <img src={image} loading='lazy' alt={"image"+key} />
         </div>
         <Modal
         open={open}
@@ -29,7 +29,7 @@ function Imagefolio({key,image}) {
         aria-describedby="modal-modal-description"
       >
         <Box sx={style}>
-          <img width={500} src={image} alt="" />
+          <img width={500} loading='lazy' src={image} alt="" />
         </Box>
       </Modal>
         </>
