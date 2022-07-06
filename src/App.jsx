@@ -16,6 +16,7 @@ import Image9 from "./components/imagen/Rectangle 95.jpg";
 import Image10 from "./components/imagen/Group 34.jpg";
 import Image11 from "./components/imagen/Group 188.jpg";
 import Image13 from "./components/imagen/Group 6.jpg";
+import Image14 from "./components/imagen/Group 41.jpg";
 
 function App() {
   let cards = [
@@ -141,6 +142,18 @@ function App() {
           link1="https://www.figma.com/file/Y39UtUr4GOFrFiBFYejJcF/Amazon?node-id=0%3A1"
           link2="https://www.figma.com/file/5BLmJi0JumPvudZ97XbAAp/Design-System-Angie-Varela?node-id=0%3A1"
           NameButton="D-SYSTEM"
+        />
+      ),
+    },
+    {
+      key: uuidv4(),
+      content: (
+        <Card
+          imagen={Image14}
+          title="Alejandro Gaviria"
+          parrafo="Alejandro fue parte de las elecciones presidenciales de Colombia como candidato a la presidencia. Este proyecto s trato del rediseño de su página-blog personal."
+          nboton={1}
+          link1="https://www.figma.com/file/8uXb9VnQD7reCN30CgW9u6/AG?node-id=0%3A1"
         />
       ),
     },
