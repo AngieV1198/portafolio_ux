@@ -137,8 +137,8 @@ function App() {
       content: (
         <Card
           imagen={Image13}
-          title="Mercado Libre"
-          parrafo="Mercado Libre es una empresa multinacional dedicada al comercio electrónico en Latinoamérica. Este proyecto trata del rediseño de la página web de Mercado Libre, siendo este más atractivo y limpio para el usuario."
+          title="Amazon"
+          parrafo="Amazon es la empresa en internet de venta al por menor más grande del mundo. Este proyecto trata del rediseño de la página web de Amazon, siendo este más atractivo y limpio para el usuario."
           link1="https://www.figma.com/file/Y39UtUr4GOFrFiBFYejJcF/Amazon?node-id=0%3A1"
           link2="https://www.figma.com/file/5BLmJi0JumPvudZ97XbAAp/Design-System-Angie-Varela?node-id=0%3A1"
           NameButton="D-SYSTEM"
@@ -151,7 +151,7 @@ function App() {
         <Card
           imagen={Image14}
           title="Alejandro Gaviria"
-          parrafo="Alejandro fue parte de las elecciones presidenciales de Colombia como candidato a la presidencia. Este proyecto s trato del rediseño de su página-blog personal."
+          parrafo="Alejandro fue parte de las elecciones presidenciales de Colombia como candidato a la presidencia. Este proyecto se trato del rediseño de su página-blog personal."
           nboton={1}
           link1="https://www.figma.com/file/8uXb9VnQD7reCN30CgW9u6/AG?node-id=0%3A1"
         />
