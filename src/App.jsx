@@ -123,7 +123,7 @@ function App() {
         <Card
           imagen={Image11}
           title="Universidad de Yale"
-          parrafo="Etb es una empresa de Telecomunicaciones ubicada en la ciudad de Bogotá. Sú sitio web se encuentra con muchos errores respecto del diseño UI/UX, una página con exceso de información como su principal problema"
+          parrafo="Yale es una universidad privada ubicada en New Haven, Estados Unidos, tiene una de las mejores escuelas de Bellas Artes a nivel mundial. Este proyecto trata sobre el rediseño en versión responsive de su página web."
           link1="https://www.figma.com/file/yzYylBkWpnbQSJyWCsXEeY/Universidad-de-Yale?node-id=0%3A1"
           link2="https://www.figma.com/proto/oxXZhyO7bb7Ufo4SSNIcoQ/Tercer-entrega-final?page-id=0%3A1&node-id=1%3A2&viewport=522%2C237%2C0.33&scaling=contain"
           NameButton="UX"
