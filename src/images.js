@@ -13,5 +13,6 @@ import img12 from "./components/imagen/4.jpg"
 import img13 from "./components/imagen/Rectangle 95.jpg"
 import img14 from "./components/imagen/Group 34.jpg"
 import img15 from "./components/imagen/Group 188.jpg"
+import img16 from "./components/imagen/Group 6.jpg"
 
-export const collection = [img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12,img13,img14,img15]
+export const collection = [img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12,img13,img14,img15,img16]

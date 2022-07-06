@@ -15,6 +15,7 @@ import table2 from "./CV Angie Varela.pdf";
 import Image9 from "./components/imagen/Rectangle 95.jpg";
 import Image10 from "./components/imagen/Group 34.jpg";
 import Image11 from "./components/imagen/Group 188.jpg";
+import Image13 from "./components/imagen/Group 6.jpg";
 
 function App() {
   let cards = [
@@ -127,6 +128,19 @@ function App() {
           link1="https://www.figma.com/file/yzYylBkWpnbQSJyWCsXEeY/Universidad-de-Yale?node-id=0%3A1"
           link2="https://www.figma.com/proto/oxXZhyO7bb7Ufo4SSNIcoQ/Tercer-entrega-final?page-id=0%3A1&node-id=1%3A2&viewport=522%2C237%2C0.33&scaling=contain"
           NameButton="UX"
+        />
+      ),
+    },
+    {
+      key: uuidv4(),
+      content: (
+        <Card
+          imagen={Image13}
+          title="Mercado Libre"
+          parrafo="Mercado Libre es una empresa multinacional dedicada al comercio electrónico en Latinoamérica. Este proyecto trata del rediseño de la página web de Mercado Libre, siendo este más atractivo y limpio para el usuario."
+          link1="https://www.figma.com/file/Y39UtUr4GOFrFiBFYejJcF/Amazon?node-id=0%3A1"
+          link2="https://www.figma.com/file/5BLmJi0JumPvudZ97XbAAp/Design-System-Angie-Varela?node-id=0%3A1"
+          NameButton="DESIGN SYSTEM"
         />
       ),
     },
