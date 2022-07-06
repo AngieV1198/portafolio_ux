@@ -140,7 +140,7 @@ function App() {
           parrafo="Mercado Libre es una empresa multinacional dedicada al comercio electrónico en Latinoamérica. Este proyecto trata del rediseño de la página web de Mercado Libre, siendo este más atractivo y limpio para el usuario."
           link1="https://www.figma.com/file/Y39UtUr4GOFrFiBFYejJcF/Amazon?node-id=0%3A1"
           link2="https://www.figma.com/file/5BLmJi0JumPvudZ97XbAAp/Design-System-Angie-Varela?node-id=0%3A1"
-          NameButton="DESIGN SYSTEM"
+          NameButton="D-SYSTEM"
         />
       ),
     },
