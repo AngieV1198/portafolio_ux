@@ -12,6 +12,8 @@ import table from "./Heuristica ETB.pdf";
 import Image7 from "./components/imagen/correo.png";
 import Image8 from "./components/imagen/curriculum.png";
 import table2 from "./CV Angie Varela.pdf";
+import Image9 from "./components/imagen/Rectangle 95.jpg";
+import Image10 from "./components/imagen/Group 34.jpg";
 
 function App() {
   let cards = [
@@ -87,6 +89,30 @@ function App() {
           parrafo="Jeno's Pizza, cadena de restaurantes fundada en 1973 por Alfredo Gracia y Hernando Soto. Se crea una Food Delivery App para Jeno's Pizza la cual busca enfocarse en la interfaz de usuario y la usabilidad."
           nboton={1}
           link1="https://www.figma.com/file/acs4SdvsHqsHQBiUkToRHt/Jenos-pizza?node-id=0%3A1"
+        />
+      ),
+    },
+    {
+      key: uuidv4(),
+      content: (
+        <Card
+          imagen={Image9}
+          title="AssulOne"
+          parrafo="AssulOne es una startup dedicada al desarrollo de páginas web y portafolios profesionales."
+          nboton={1}
+          link1="https://www.figma.com/file/cYBhkhCWjXpVzYcTDHqaIG/Assul-One?node-id=0%3A1"
+        />
+      ),
+    },
+    {
+      key: uuidv4(),
+      content: (
+        <Card
+          imagen={Image10}
+          title="DINO WALLET"
+          parrafo="Dino Wallet es una billetera Virtual que permite realizar no solo enviar y recibir transferencias, también desde pagar tú factura hasta tus vacaciones."
+          nboton={1}
+          link1="https://www.figma.com/file/n72qdLFuGdel4TuhuHVUJL/DINO?node-id=0%3A1"
         />
       ),
     },
