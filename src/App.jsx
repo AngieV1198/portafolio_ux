@@ -14,6 +14,7 @@ import Image8 from "./components/imagen/curriculum.png";
 import table2 from "./CV Angie Varela.pdf";
 import Image9 from "./components/imagen/Rectangle 95.jpg";
 import Image10 from "./components/imagen/Group 34.jpg";
+import Image11 from "./components/imagen/Group 188.jpg";
 
 function App() {
   let cards = [
@@ -110,9 +111,22 @@ function App() {
         <Card
           imagen={Image10}
           title="DINO WALLET"
-          parrafo="Dino Wallet es una billetera Virtual que permite realizar no solo enviar y recibir transferencias, también desde pagar tú factura hasta tus vacaciones."
+          parrafo="Dino Wallet es una billetera Virtual que permite no solo enviar y recibir transferencias, también hasta pagar tú factura hasta tus vacaciones."
           nboton={1}
           link1="https://www.figma.com/file/n72qdLFuGdel4TuhuHVUJL/DINO?node-id=0%3A1"
+        />
+      ),
+    },
+    {
+      key: uuidv4(),
+      content: (
+        <Card
+          imagen={Image11}
+          title="Universidad de Yale"
+          parrafo="Etb es una empresa de Telecomunicaciones ubicada en la ciudad de Bogotá. Sú sitio web se encuentra con muchos errores respecto del diseño UI/UX, una página con exceso de información como su principal problema"
+          link1="https://www.figma.com/file/yzYylBkWpnbQSJyWCsXEeY/Universidad-de-Yale?node-id=0%3A1"
+          link2="https://www.figma.com/proto/oxXZhyO7bb7Ufo4SSNIcoQ/Tercer-entrega-final?page-id=0%3A1&node-id=1%3A2&viewport=522%2C237%2C0.33&scaling=contain"
+          NameButton="UX"
         />
       ),
     },
