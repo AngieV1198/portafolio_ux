@@ -11,7 +11,7 @@ import Image6 from "./components/imagen/logojenos.jpg";
 import table from "./Heuristica ETB.pdf";
 import Image7 from "./components/imagen/correo.png";
 import Image8 from "./components/imagen/curriculum.png";
-import table2 from "./CV Angie Varela.pdf";
+import table2 from "./Angie Varela HV.pdf";
 import Image9 from "./components/imagen/Rectangle 95.jpg";
 import Image10 from "./components/imagen/Group 34.jpg";
 import Image11 from "./components/imagen/Group 188.jpg";
