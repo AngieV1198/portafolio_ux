@@ -17,6 +17,7 @@ import Image10 from "./components/imagen/Group 34.jpg";
 import Image11 from "./components/imagen/Group 188.jpg";
 import Image13 from "./components/imagen/Group 6.jpg";
 import Image14 from "./components/imagen/Group 41.jpg";
+import Image18 from "./components/imagen/la huerta.jpg";
 
 function App() {
   let cards = [
@@ -154,6 +155,30 @@ function App() {
           parrafo="Alejandro fue parte de las elecciones presidenciales de Colombia como candidato a la presidencia. Este proyecto se trato del rediseño de su página-blog personal."
           nboton={1}
           link1="https://www.figma.com/file/8uXb9VnQD7reCN30CgW9u6/AG?node-id=0%3A1"
+        />
+      ),
+    },
+    {
+      key: uuidv4(),
+      content: (
+        <Card
+          imagen={Image18}
+          title="La huerta hotel"
+          parrafo="La huerta hotel es una hotel campestre ubicado en el Lago Calima."
+          nboton={1}
+          link1="https://www.figma.com/proto/PDMI5Xzc72V7rCXz1Ehlbs/La-huerta-Hotel?page-id=0%3A1&node-id=10%3A253&scaling=scale-down-width"
+        />
+      ),
+    },
+    {
+      key: uuidv4(),
+      content: (
+        <Card
+          imagen={Image18}
+          title="Ritmos de Colombia"
+          parrafo="La huerta hotel es una hotel campestre ubicado en el Lago Calima."
+          nboton={1}
+          link1="https://www.figma.com/proto/CKGxKWMud5sfBj7lsGR6CO/Ritmos-de-Colombia-Angie-Varela?page-id=0%3A1&node-id=1%3A2&viewport=488%2C113%2C0.17&scaling=scale-down-width"
         />
       ),
     },
