@@ -16,5 +16,6 @@ import img15 from "./components/imagen/Group 188.jpg"
 import img16 from "./components/imagen/Group 6.jpg"
 import img17 from "./components/imagen/Group 41.jpg"
 import img18 from "./components/imagen/la huerta.jpg"
+import img19 from "./components/imagen/ritmos.png"
 
-export const collection = [img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12,img13,img14,img15,img16,img17,img18]
+export const collection = [img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12,img13,img14,img15,img16,img17,img18,img19]
