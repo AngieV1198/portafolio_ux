@@ -19,6 +19,7 @@ import Image13 from "./components/imagen/Group 6.jpg";
 import Image14 from "./components/imagen/Group 41.jpg";
 import Image18 from "./components/imagen/la huerta.jpg";
 import Image19 from "./components/imagen/ritmos.png";
+import Image20 from "./components/imagen/belisario.png";
 
 function App() {
   let cards = [
@@ -28,7 +29,7 @@ function App() {
         <Card
           imagen={Image1}
           title="Dashboard, Julie"
-          parrafo="Este Dashboard fue creado para imitar por medio de React y SCSS a través de componentes una página, a partir de un diseño inicial copiado al mas mínimo detalle."
+          parrafo="Este Dashboard fue creado para imitar por medio de React y SCSS a través de componentes, una página, a partir de un diseño inicial copiado al más mínimo detalle."
           NameButton="Code"
           link1="https://trabajo-scss.vercel.app/"
           link2="https://github.com/Sagalo04/TrabajoSCSS"
@@ -41,7 +42,7 @@ function App() {
         <Card
           imagen={Image2}
           title="Surrealismo"
-          parrafo="Aquí encontrarás algunas de las piezas surrealistas que he realizado en este 2021. Esta maravillosa herramienta me ha permitido explotar mi creatividad."
+          parrafo="Aquí encontrarás algunas de las piezas surrealistas que he realizado, mostrando algunas de mis capacidades para el retoque de fotografía y el retoque artístico."
           nboton={1}
           link1="/Retoque"
           external={true}
@@ -54,7 +55,7 @@ function App() {
         <Card
           imagen={Image3}
           title="ETB"
-          parrafo="Etb es una empresa de Telecomunicaciones ubicada en la ciudad de Bogotá. Sú sitio web se encuentra con muchos errores respecto del diseño UI/UX, una página con exceso de información como su principal problema"
+          parrafo="Etb es una empresa de Telecomunicaciones ubicada en la ciudad de Bogotá. Su sitio web se encuentra con muchos errores respecto del diseño UI/UX, una página con exceso de información como su principal problema"
           link1="https://www.figma.com/file/Wr93lI1bsZ4r30v0AHhlCY/Untitled?node-id=0%3A1"
           link2={table}
           NameButton="Tabla UX"
@@ -67,7 +68,7 @@ function App() {
         <Card
           imagen={Image4}
           title="Trollhunters"
-          parrafo="Es una serie de animaciónpor Guillermo del Toro para Netflix. En esta página se compilan los personajes de la serie y sus caracteristicas, y algunos de los momentos para importantes de cada una de sus temporadas."
+          parrafo="Es una serie de animación por Guillermo del Toro para Netflix. En esta página se compilan los personajes de la serie y sus características, y algunos de los momentos para importantes de cada una de sus temporadas."
           nboton={1}
           link1="https://www.figma.com/file/gvPPvkdtcwNN9iYG2Ws8kb/Trolls-Hunters?node-id=0%3A1"
         />
@@ -79,7 +80,7 @@ function App() {
         <Card
           imagen={Image5}
           title="Portafolio profesional"
-          parrafo="Este portafolio fue creado para el Ingeniero Multimedia Santiago García Lopez de la Universidad Autonoma de Occidente de Cali para mostrar cada uno de sus proyectos."
+          parrafo="Este portafolio fue creado para el Ingeniero Multimedia Santiago García López de la Universidad Autónoma de Occidente de Cali para mostrar cada uno de sus proyectos."
           nboton={1}
           link1="https://portafolio-zeta-seven.vercel.app/"
         />
@@ -153,7 +154,7 @@ function App() {
         <Card
           imagen={Image14}
           title="Alejandro Gaviria"
-          parrafo="Alejandro fue parte de las elecciones presidenciales de Colombia como candidato a la presidencia. Este proyecto se trato del rediseño de su página-blog personal."
+          parrafo="Alejandro fue parte de las elecciones presidenciales de Colombia como candidato a la presidencia. Este proyecto se trató del rediseño de su página-blog personal."
           nboton={1}
           link1="https://www.figma.com/file/8uXb9VnQD7reCN30CgW9u6/AG?node-id=0%3A1"
         />
@@ -165,7 +166,7 @@ function App() {
         <Card
           imagen={Image18}
           title="La huerta hotel"
-          parrafo="Este proyecto con Imaginamos S.A.S, la huerta hotel es una hotel campestre ubicado en el Lago Calima."
+          parrafo="Este proyecto con Imaginamos S.A.S., la huerta hotel es un hotel campestre ubicado en el Lago Calima."
           nboton={1}
           link1="https://www.figma.com/proto/PDMI5Xzc72V7rCXz1Ehlbs/La-huerta-Hotel?page-id=0%3A1&node-id=10%3A253&scaling=scale-down-width"
         />
@@ -177,7 +178,7 @@ function App() {
         <Card
           imagen={Image19}
           title="Ritmos de Colombia"
-          parrafo="Este proyecto con Imaginamos S.A.S, es un sitio web oficial que nos muestra actividades para hacer como turista en algunas ciudades de Colombia."
+          parrafo="Este proyecto con Imaginamos S.A.S., es un sitio web oficial que nos muestra actividades para hacer como turista en algunas ciudades de Colombia."
           nboton={1}
           link1="https://www.figma.com/proto/CKGxKWMud5sfBj7lsGR6CO/Ritmos-de-Colombia-Angie-Varela?page-id=0%3A1&node-id=1%3A2&viewport=488%2C113%2C0.17&scaling=scale-down-width"
         />
@@ -187,9 +188,9 @@ function App() {
       key: uuidv4(),
       content: (
         <Card
-          imagen={Image19}
+          imagen={Image20}
           title="Promotora Belisario Marin"
-          parrafo="Este proyecto con Imaginamos S.A.S, es una agencia de viajes que ofrece estadia, tiquetes, paquetes turisticos a destinos Nacionales e Internacionales."
+          parrafo="Este proyecto, con Imaginamos S.A.S., es una agencia de viajes que ofrece estadía, tiquetes, paquetes turísticos a destinos Nacionales e Internacionales."
           nboton={1}
           link1="https://www.figma.com/proto/QWNybwc0IBKdO5dEOKBLHn/Promotora-Belisario-Marin-Angie-Varela?page-id=0%3A1&node-id=3%3A88&viewport=-191%2C719%2C0.23&scaling=scale-down-width"
         />
