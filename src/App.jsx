@@ -183,6 +183,18 @@ function App() {
         />
       ),
     },
+    {
+      key: uuidv4(),
+      content: (
+        <Card
+          imagen={Image19}
+          title="Promotora Belisario Marin"
+          parrafo="Este proyecto con Imaginamos S.A.S, es una agencia de viajes que ofrece estadia, tiquetes, paquetes turisticos a destinos Nacionales e Internacionales."
+          nboton={1}
+          link1="https://www.figma.com/proto/QWNybwc0IBKdO5dEOKBLHn/Promotora-Belisario-Marin-Angie-Varela?page-id=0%3A1&node-id=3%3A88&viewport=-191%2C719%2C0.23&scaling=scale-down-width"
+        />
+      ),
+    },
   ];
 
   return (
