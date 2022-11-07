@@ -98,18 +98,18 @@ function App() {
         />
       ),
     },
-    {
-      key: uuidv4(),
-      content: (
-        <Card
-          imagen={Image9}
-          title="AssulOne"
-          parrafo="AssulOne es una startup dedicada al desarrollo de páginas web y portafolios profesionales."
-          nboton={1}
-          link1="https://www.figma.com/file/cYBhkhCWjXpVzYcTDHqaIG/Assul-One?node-id=0%3A1"
-        />
-      ),
-    },
+    //{
+      //key: uuidv4(),
+      //content: (
+        //<Card
+          //imagen={Image9}
+          //title="AssulOne"
+          //parrafo="AssulOne es una startup dedicada al desarrollo de páginas web y portafolios profesionales."
+          //nboton={1}
+          //link1="https://www.figma.com/file/cYBhkhCWjXpVzYcTDHqaIG/Assul-One?node-id=0%3A1"
+        ///>
+      //),
+    //},
     {
       key: uuidv4(),
       content: (
