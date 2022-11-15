@@ -3,7 +3,7 @@ import { v4 as uuidv4 } from "uuid";
 import Card from "./components/Card/Card";
 import Carousel from "./components/Carousel";
 import Image1 from "./components/imagen/Julie.jpg";
-import Image2 from "./components/imagen/logoAv.jpg";
+//import Image2 from "./components/imagen/logoAv.jpg";
 import Image3 from "./components/imagen/logoetb.jpg";
 import Image4 from "./components/imagen/logotroll.jpg";
 import Image5 from "./components/imagen/portafolio.jpg";
@@ -12,7 +12,7 @@ import table from "./Heuristica ETB.pdf";
 import Image7 from "./components/imagen/correo.png";
 import Image8 from "./components/imagen/curriculum.png";
 import table2 from "./Angie Varela HV.pdf";
-import Image9 from "./components/imagen/Rectangle 95.jpg";
+//import Image9 from "./components/imagen/Rectangle 95.jpg";
 import Image10 from "./components/imagen/Group 34.jpg";
 import Image11 from "./components/imagen/Group 188.jpg";
 import Image13 from "./components/imagen/Group 6.jpg";
@@ -36,19 +36,19 @@ function App() {
         />
       ),
     },
-    {
-      key: uuidv4(),
-      content: (
-        <Card
-          imagen={Image2}
-          title="Surrealismo"
-          parrafo="Aquí encontrarás algunas de las piezas surrealistas que he realizado, mostrando algunas de mis capacidades para el retoque de fotografía y el retoque artístico."
-          nboton={1}
-          link1="/Retoque"
-          external={true}
-        />
-      ),
-    },
+    //{
+      //key: uuidv4(),
+      //content: (
+       // <Card
+         // imagen={Image2}
+         // title="Surrealismo"
+          //parrafo="Aquí encontrarás algunas de las piezas surrealistas que he realizado, mostrando algunas de mis capacidades para el retoque de fotografía y el retoque artístico."
+         // nboton={1}
+         // link1="/Retoque"
+         // external={true}
+       // />
+     // ),
+   // },
     {
       key: uuidv4(),
       content: (
