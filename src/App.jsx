@@ -200,9 +200,6 @@ function App() {
 
   return (
     <div className="App">
-      <div className="icons">
-        <a  href="mailto:angievarela1998@gmail.com"><img src={Image7} className="img_icon" alt="icon mail"/></a>
-      </div>
       <Carousel
         cards={cards}
         height="500px"
