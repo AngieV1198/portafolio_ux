@@ -10,8 +10,8 @@ import Image4 from "./components/imagen/logotroll.jpg";
 import Image6 from "./components/imagen/logojenos.jpg";
 //import table from "./Heuristica ETB.pdf";
 import Image7 from "./components/imagen/correo.png";
-import Image8 from "./components/imagen/curriculum.png";
-import table2 from "./Angie Varela HV.pdf";
+//import Image8 from "./components/imagen/curriculum.png";//
+//import table2 from "./Angie Varela HV.pdf";
 //import Image9 from "./components/imagen/Rectangle 95.jpg";
 import Image10 from "./components/imagen/Group 34.jpg";
 import Image11 from "./components/imagen/Group 188.jpg";
@@ -202,7 +202,6 @@ function App() {
     <div className="App">
       <div className="icons">
         <a  href="mailto:angievarela1998@gmail.com"><img src={Image7} className="img_icon" alt="icon mail"/></a>
-        <a  href={table2} target="_blank" rel="noreferrer"><img src={Image8} className="img_icon_b" alt="icon cv"/></a>
       </div>
       <Carousel
         cards={cards}
